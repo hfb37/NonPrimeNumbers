@@ -6,7 +6,7 @@
 #include "nonPrimeNumbers.h"
 
 int main() {
-    std::vector<int> numbers(100000000);
+    std::vector<int> numbers(1000000);
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<int> dist(1, 100);
